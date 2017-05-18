@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1495137181845" stop="1495137201085" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : HigherLogicInterviewTask</name>
+    <title>Default Suite : HigherLogicInterviewTask</title>
+    <test-cases>
+        <test-case start="1495137182050" stop="1495137201064" status="passed">
+            <name>testUserLoginWithValidInput</name>
+            <steps>
+                <step start="1495137183031" stop="1495137193899" status="passed">
+                    <name>openURL[https://automation.connectedcommunity.org/home]</name>
+                    <title>Open URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1495137193912" stop="1495137196887" status="passed">
+                    <name>openLoginWindow</name>
+                    <title>Open LoginPage</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1495137196896" stop="1495137197724" status="passed">
+                    <name>fillEmailAddressField[qa@higherlogic.test]</name>
+                    <title>Fill Email Address with valid email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1495137197728" stop="1495137197959" status="passed">
+                    <name>fillPasswordFiled[qa]</name>
+                    <title>Fill Password with valid input</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1495137197963" stop="1495137200726" status="passed">
+                    <name>clickOnLoginButton</name>
+                    <title>Click on Login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1495137200731" stop="1495137200731" status="passed">
+                    <name>getUserViewLabel</name>
+                    <title>Get user view label</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="nb-bot"/>
+                <label name="thread" value="6712@nb-bot.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

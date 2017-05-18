@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1495137597445" stop="1495137639610" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : HigherLogicInterviewTask</name>
+    <title>Default Suite : HigherLogicInterviewTask</title>
+    <test-cases>
+        <test-case start="1495137636402" stop="1495137639577" status="passed">
+            <name>testUserLogout</name>
+            <steps>
+                <step start="1495137598285" stop="1495137627480" status="passed">
+                    <name>openURL[https://automation.connectedcommunity.org/home]</name>
+                    <title>Open URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1495137627502" stop="1495137631182" status="passed">
+                    <name>openLoginWindow</name>
+                    <title>Open LoginPage</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1495137631193" stop="1495137632062" status="passed">
+                    <name>fillEmailAddressField[qa@higherlogic.test]</name>
+                    <title>Fill Email Address with valid email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1495137632068" stop="1495137632372" status="passed">
+                    <name>fillPasswordFiled[qa]</name>
+                    <title>Fill Password with valid input</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1495137632380" stop="1495137636213" status="passed">
+                    <name>clickOnLoginButton</name>
+                    <title>Click on Login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1495137636419" stop="1495137636996" status="passed">
+                    <name>clickOnShowProfileButton</name>
+                    <title>Click on Show Profile Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1495137637018" stop="1495137639343" status="passed">
+                    <name>clickOnLogoutButton</name>
+                    <title>User logged out from the system</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1495137639348" stop="1495137639348" status="passed">
+                    <name>getSignInButton</name>
+                    <title>Get SignIn button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="nb-bot"/>
+                <label name="thread" value="6984@nb-bot.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

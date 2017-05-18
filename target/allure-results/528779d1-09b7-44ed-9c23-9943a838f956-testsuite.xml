@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1495151237024" stop="1495151270223" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : HigherLogicTestTask</name>
+    <title>Default Suite : HigherLogicTestTask</title>
+    <test-cases>
+        <test-case start="1495151237103" stop="1495151269986" status="passed">
+            <name>testUserLoginWithValidInput</name>
+            <steps>
+                <step start="1495151237542" stop="1495151255312" status="passed">
+                    <name>openURL[https://automation.connectedcommunity.org/home]</name>
+                    <title>Open URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1495151255321" stop="1495151263289" status="passed">
+                    <name>openLoginWindow</name>
+                    <title>Open LoginPage</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1495151263291" stop="1495151265313" status="passed">
+                    <name>fillEmailAddressField[qa@higherlogic.test]</name>
+                    <title>Fill Email Address with valid email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1495151265317" stop="1495151265431" status="passed">
+                    <name>fillPasswordFiled[qa]</name>
+                    <title>Fill Password with valid input</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1495151265444" stop="1495151269542" status="passed">
+                    <name>clickOnLoginButton</name>
+                    <title>Click on Login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1495151269547" stop="1495151269547" status="passed">
+                    <name>getUserViewLabel</name>
+                    <title>Get user view label</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="lenovoz500"/>
+                <label name="thread" value="8102@lenovoz500.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
